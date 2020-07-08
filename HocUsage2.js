@@ -13,6 +13,7 @@ const DisplayAnotherWay = props => (
 
 );
 
+// concentration on that 
 const WrappedComponent = withSecretToLife(DisplayAnotherWay);
 
 export default WrappedComponent;
