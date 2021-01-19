@@ -1,11 +1,7 @@
-import constants from "../../constant";
-
 export function setSelectedLanguage(data) {
- // localStorage.setItem("language", data);
+  // localStorage.setItem("language", data);
   return {
-    type: constants.SELECTED_LANGUAGE,
+    type: "SELECTED_LANGUAGE",
     payload: data
   };
 }
-
-
